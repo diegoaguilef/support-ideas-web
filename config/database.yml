@@ -5,8 +5,13 @@
 #   gem 'sqlite3'
 #
 default: &default
-  adapter: postgres
-  pool: 5
+  adapter: postgresql
+  host: ec2-23-21-66-88.compute-1.amazonaws.com
+  pool: 20
+  database: d2lgf18g6p5vbm
+  user: harwutypudzsjo
+  port: 5432
+  password: r315WuKrESZfWooGA7ef4nsgZj
   timeout: 5000
 
 development:
